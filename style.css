@@ -43,16 +43,16 @@ p {
   text-align: justify;            /* tekst links en rechts uitvullen */
 }
 
-/* Indeling voor hoofd pagina */fff
+/* Indeling voor hoofd pagina */
 
 .kolomLinks {
   float:left;
   width:200px;
-  padding-right:15px;           /* afstand tussen plaatje en rechterkolom */
+  padding-right:30px;           /* afstand tussen plaatje en rechterkolom */
 }
 .kolomRechts {
   float:left;
-  width: 650px;
+  width: 500px;
 }
 .kolomStop {
   clear:both;                   /* stop met floaten */
