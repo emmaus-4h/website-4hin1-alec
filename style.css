@@ -28,7 +28,7 @@ body * {                          /* geldt voor alles in body */
 
 header, footer {                  /* geldt voor header en footer */
   margin: 10px 0px;
-}
+} 
 
 main {                       
   text-align: justify;            /* tekst uitvullen */}
@@ -51,7 +51,7 @@ p {
   padding-right:30px;           /* afstand tussen plaatje en rechterkolom */
 }
 .kolomRechts {
-  float:left;
+  float:right;
   width: 500px;
 }
 .kolomStop {
