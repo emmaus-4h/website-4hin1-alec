@@ -10,7 +10,7 @@
 html, body {                      /* geldt voor html en body */
   margin: 0%;                    /* standaard marge 0 */
   background-color: #ff9300;    /* achtergrondkleur lichtgrijs */
-  color: #000000;               /* tekstkleur donkergrijs */
+  color: #000000;              /* tekstkleur donkergrijs */
 }  
 
 body * {                          /* geldt voor alles in body */
