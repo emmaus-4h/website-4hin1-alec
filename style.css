@@ -9,8 +9,14 @@
 
 html, body {                      /* geldt voor html en body */
   margin: 0%;                    /* standaard marge 0 */
-  background-color: #ff9300;    /* achtergrondkleur lichtgrijs */
+  background-color: #f36c21;    /* achtergrondkleur lichtgrijs */
   color: #000000;              /* tekstkleur donkergrijs */
+background-image: url(lypz42i.png);
+background-size: 1200px;
+background-position-x: 400px;
+  background-position-y: -50px;
+  background-repeat: no-repeat;
+
 }  
 
 body * {                          /* geldt voor alles in body */
@@ -72,6 +78,7 @@ h1, h2, h3 {
 a {
     color: black;
     text-decoration: none;
+
 }
 
 a:hover {
