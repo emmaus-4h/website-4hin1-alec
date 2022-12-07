@@ -12,6 +12,7 @@ html, body {                      /* geldt voor html en body */
   background-color: #f36c21;    /* achtergrondkleur lichtgrijs */
   color: #000000;              /* tekstkleur donkergrijs */
 background-image: url(lypz42i.png);
+  background-attachment: fixed;
 background-size: 1200px;
 background-position-x: 400px;
   background-position-y: -50px;
