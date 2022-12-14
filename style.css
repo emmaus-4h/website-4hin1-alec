@@ -1,8 +1,6 @@
 /* Instellingen om fouten te helpen vinden, uncomment om aan te zetten */
-
-* {                                       /* geldt voor alles */
-                                          /* zorg dat elke box een gestippelde rand krijgt, zodat je de afmeting goed kunt zien, letop dat dit de layout soms kan wijzigen */
-    /* background-color: rgba(0,0,0,5%); */  /* zorg dat elke box een doorzichtige donkere achtergrond krijgt, hoe meer boxen in elkaar hoe donkerder de achtergrondkleur */
+{*
+ 
 }
 
 /* Basisinstellingen voor alle pagina's, alleen aanpassen als je pro wilt worden */d
@@ -12,12 +10,11 @@ html, body {                      /* geldt voor html en body */
   background-color: #f36c21;    /* achtergrondkleur lichtgrijs */
   color: #000000;              /* tekstkleur donkergrijs */
 background-image: url(lypz42i.png);
-  background-attachment: fixed;
+  background-attachment: scroll;
 background-size: 1200px;
-background-position-x: 400px;
-  background-position-y: -50px;
+  background-position: center;
   background-repeat: no-repeat;
-
+ 
 }  
 
 body * {                          /* geldt voor alles in body */
@@ -30,7 +27,7 @@ body * {                          /* geldt voor alles in body */
 
 .page {
   width: 700px;                   /* vaste breedte van 700 pixels */
-  margin: 10px auto;              /* boven en onder 0 pixels marge, links en rechts marge gelijk verdeeld (gecentreerd) */
+  margin: 10px auto;     /* boven en onder 0 pixels marge, links en rechts marge gelijk verdeeld (gecentreerd) */
 }
 
 header, footer {                  /* geldt voor header en footer */
